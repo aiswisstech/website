@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Refrigerator';
+    src: url("/Users/inmos/aiswisstechnology_latest/font/Refrigerator Deluxe.otf");
+  }
+  html, div, a, h2, span{
+    font-family: 'Refrigerator'!important;
+  }
+.logo{
+    margin-top: 13px;
+}
+
+.companyName{
+    position: absolute;
+    margin-left: 5px;
+    width: 200px;
+}
+
+nav .brand-logo {
+    left: 4%!important;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.robotLine{
+    border-bottom: 1px silver solid;
+    border-left: 1px silver solid;
+    width: 50px;
+    height: 50px;
+}
+.robot{
+    width: 150px;
+}
+.robotLabel{
+    margin-top: 4%!important;
+    margin-left: 1%!important;
+    position: absolute;
+    width: 190px;
+}
+.align-conter{
+    padding-left:30%
+}
+.voiceLine{
+    border-bottom: 1px silver solid;
+    border-right: 1px silver solid;
+    width: 50px;
+    height: 50px;
+
+}
+.header{
+    text-align: center;
+}
+
+.align-right{
+    margin-left:10%!important;
+}
+
+.align-left{
+    margin-left:-21.5%!important;
+}
+
+.imageLine{
+    border-bottom:1px silver solid;
+    border-left:1px silver solid;
+    width: 50px;
+    height: 50px;
+}
+
+.move-right{
+    margin-left:60px!important;
+}
+
+.move-right-image{
+    margin-left: 1%!important;
+    position: absolute;
+    width: 190px;
+}
+
+.hologramLine{
+    border-bottom: 1px silver solid;
+    border-right: 1px silver solid;
+    width: 50px;
+    height: 50px;
+}
+
+.move-left{
+    margin-left: -12%!important;
+    margin-top: 50px;
+}
+
+.bots{
+    width: 150px;
+    margin-left:15%;
+}
+
+.bots-cart{
+    width: 150px;
+    margin-top: 4%!important;
+    margin-left: 1%!important;
+}
+.microphone{
+    margin-left: 60%;
+}
+.hologram{
+    width: 150px;
+    margin-left:55%
+}
+.align-left-row{
+    margin-left:20%!important;
+}
+.move-right-toolbar-icon{
+    left: 90%!important;
+}
+
+@media (max-width: 600px){
+.robot{
+    margin-left: 30%;
+}
+
+.microphone{
+    margin-left: 35%;
+}
+.move-right{
+    margin-left: 30%!important;
+}
+.bots{
+    margin-left: 30%!important;
+}
+.hologram{
+    width: 150px;
+    margin-left:30%
+}
+.align-left-row{
+    margin-left:0!important;
+}
+}
